@@ -1,0 +1,81 @@
+@media (max-width: 574px){
+    .button,
+    .link,
+    .googlePlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button{
+        background-color: #ffff00;
+        border-radius: 5px;
+        margin: 10px 0;
+        height: 45px;
+        width: 100%;
+    }
+
+    .button:hover{
+        background-color: #ffff00f6;
+    }
+
+    .link{
+        text-decoration: none;
+        color: black;
+        background: none;
+        height: 100%;
+        width: 100%;
+    }
+
+    .googlePlay{
+        height: 45px;
+        width: 200px;
+        background-color: none;
+        border: 1px solid gray;
+        overflow: hidden;
+        border-radius: 5px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 575px){
+    .button,
+    .link,
+    .googlePlay{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button{
+        background-color: #ffff00;
+        border-radius: 5px;
+        margin: 10px 0;
+        height: 50px;
+        width: 200px;
+    }
+
+    .button:hover{
+        background-color: #ffff00f6;
+    }
+
+    .link{
+        text-decoration: none;
+        color: black;
+        background: none;
+        height: 100%;
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .googlePlay{
+        height: 50px;
+        width: 200px;
+        background-color: none;
+        border: 1px solid gray;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+}
+
+

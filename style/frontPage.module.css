@@ -1,0 +1,259 @@
+@media (min-width: 575px) {
+    .frontPage {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        width: 100%;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+
+    .frontPage::before {
+        position: absolute;
+        content: '';
+        background: linear-gradient(to top, rgb(0, 0, 0) 10%, rgb(0, 0, 0, 0.1) 75%);
+        min-height: 800px;
+        height: 100vh;
+        width: 100vw;
+        z-index: 1;
+    }
+
+    .background {
+        position: absolute;
+        min-height: 800px;
+        max-width: 100%;
+        height: 100vh;
+        width: 100vw;
+        object-fit: cover;
+        z-index: 0;
+        overflow: hidden;
+    }
+
+    .container,
+    .containerInfoGame {
+        display: flex;
+        
+        width: 100%;
+        max-width: 1400px;
+        padding: 80px 50px;
+        z-index: 3;
+    }
+
+    .container{
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: flex-start;
+        height: 100%;
+        
+    }
+
+    .containerInfoGame{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }   
+
+    .titleGame{
+        color: rgb(255, 255, 255);
+        padding: 20px 0;
+    }
+
+    .parrafoGame{
+        color: #b7b7b7;
+        font-size: 21px;
+    }
+
+    .containerTxtGame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .containerIconGame{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 30%;
+        
+    }
+
+    .titleGame{
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+    }
+
+    .parrafoGame{
+        width: 80%;
+        color: #b7b7b7;
+        font-size: 21px;
+    }
+
+    .iconImg{
+        border-radius: 15px;
+    }
+    
+    .parrafo,
+    .containerButtons {
+        max-width: 500px;
+        padding: 30px 0;
+    }
+
+    .isologo {
+        display: flex;
+
+    }
+
+    .image {
+        margin-top: 25px;
+    }
+
+    .title {
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+        padding: 0px 20px;
+    }
+
+    .title span {
+        font-weight: 250;
+    }
+
+    .parrafo {
+        color: #b7b7b7;
+        font-size: 21px;
+    }
+
+
+    .containerButtons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 430px;
+    }
+}
+
+
+@media (max-width: 574px) {
+    .frontPage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        min-height: 800px;
+        overflow-y: hidden;
+    }
+    
+    .frontPage::before{
+        position: absolute;
+        content: '';
+        background: linear-gradient(to top, rgb(0, 0, 0) 10%, rgb(0, 0, 0,0.5) 100%);
+        height: 100vh;
+        width: 100%;
+        min-height: 800px;
+        z-index: 2;
+    }
+    
+    .background{  
+        position: relative;
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        object-position: auto auto;
+    }
+
+    .container,
+    .containerInfoGame {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        position: absolute;
+        height: 100%;
+        width: 70%;
+        z-index: 3;
+    }
+
+    .containerInfoGame{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-content: center;
+    }   
+
+
+    .containerTxtGame{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+    }
+
+    .containerIconGame{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        
+    }
+
+    .titleGame{
+        padding: 20px 0;
+        color: rgb(255, 255, 255);
+        font-size: 55px;
+    }
+
+    .parrafoGame{
+        width: 100%;
+        color: #b7b7b7;
+        font-size: 18px;
+    }
+
+    .iconImg{        
+        height: 100px;
+        width: 100px;
+        border-radius: 15px;
+
+    }
+
+
+    .isologo {
+        position: relative;
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .image {
+        display: none;
+        margin-top: 25px;
+    }
+
+    .title {
+        width: 100%;
+        color: white;
+        font-size: 55px;
+    }
+
+    .title span {
+        font-weight: 250;
+    }
+
+
+    .parrafo {
+        margin: 30px 0;
+        width: 80%;
+        align-self: flex-start;
+        color: #b7b7b7;
+        font-size: 18px;
+    }
+
+    .containerButtons {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+}

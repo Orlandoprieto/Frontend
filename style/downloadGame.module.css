@@ -1,0 +1,82 @@
+@media (max-width: 574px){
+    .downloadGame{
+        padding: 40px 0;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .containerDownload{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+    }
+    
+    .txt{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .title{
+        color: white;
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    
+    .parrafo{
+        width: 80%;
+        font-size: 16px;
+        color: #b7b7b7;
+    }
+    
+    .containerIconGp{
+        padding: 25px 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 575px){
+    .downloadGame{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .containerDownload{
+        display: flex;
+        padding: 50px;
+        width: 100%;
+        max-width: 1400px;
+    }
+    
+    .txt{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .title{
+        color: white;
+        font-size: 34px;
+        margin-bottom: 25px;
+    }
+    
+    .parrafo{
+        font-size: 21px;
+        color: #b7b7b7;
+    }
+    
+    .containerIconGp{
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+}
