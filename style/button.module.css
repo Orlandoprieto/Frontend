@@ -2,6 +2,7 @@
     .button,
     .link,
     .googlePlay{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
         display: flex;
         justify-content: center;
         align-items: center;
@@ -28,6 +29,7 @@
     }
 
     .googlePlay{
+        background-color: black;
         height: 45px;
         width: 200px;
         background-color: none;
@@ -42,6 +44,8 @@
     .button,
     .link,
     .googlePlay{
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -69,6 +73,7 @@
     }
 
     .googlePlay{
+        background-color: black;
         height: 50px;
         width: 200px;
         background-color: none;

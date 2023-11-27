@@ -1,5 +1,6 @@
 @media screen and (min-width: 1100px){
     .seccionGame{
+        background-color: white;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -33,14 +34,14 @@
     }
     
     .infoJuego h2{
-        color: white;
+        color: #000000;
         font-size: 72px;
     }
     
     .infoJuego p{
         margin: 30px 0;
         font-size: 21px;
-        color: #b7b7b7;
+        color: #273238;
     }
     
     .containerButtons{
@@ -53,8 +54,10 @@
     }
     
     .containerImg{
+        box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.2);
         display: flex;
         align-items: center;
+        border-radius: 20px;
     }
     
     .img{
@@ -67,6 +70,7 @@
 
 @media (min-width: 575px) and (max-width: 1099px){
     .seccionGame{
+        background-color: white;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -103,14 +107,14 @@
     }
     
     .infoJuego h2{
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 55px;
     }
     
     .infoJuego p{
         margin: 30px 0;
         font-size: 21px;
-        color: #b7b7b7;
+        color: #273238;
     }
     
     .containerButtons{
@@ -135,6 +139,7 @@
 
 @media (max-width: 574px){
     .seccionGame{
+        background-color: white;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -170,7 +175,7 @@
     }
     
     .infoJuego h2{
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 34px;
         
     }
@@ -178,7 +183,7 @@
     .infoJuego p{
         margin: 20px 0;
         font-size: 16px;
-        color: #b7b7b7;
+        color: #273238;
     }
     
     .containerButtons{

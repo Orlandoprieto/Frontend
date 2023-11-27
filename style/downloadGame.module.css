@@ -1,5 +1,6 @@
 @media (max-width: 574px){
     .downloadGame{
+        background-color: white;
         padding: 40px 0;
         display: flex;
         justify-content: center;
@@ -21,7 +22,7 @@
     }
     
     .title{
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 34px;
         margin-bottom: 25px;
     }
@@ -29,7 +30,7 @@
     .parrafo{
         width: 80%;
         font-size: 16px;
-        color: #b7b7b7;
+        color: #273238;
     }
     
     .containerIconGp{
@@ -43,6 +44,7 @@
 
 @media (min-width: 575px){
     .downloadGame{
+        background-color: white;
         display: flex;
         justify-content: center;
         width: 100%;
@@ -63,14 +65,14 @@
     }
     
     .title{
-        color: white;
+        color: rgb(0, 0, 0);
         font-size: 34px;
         margin-bottom: 25px;
     }
     
     .parrafo{
         font-size: 21px;
-        color: #b7b7b7;
+        color: #273238;
     }
     
     .containerIconGp{

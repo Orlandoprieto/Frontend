@@ -1,9 +1,11 @@
 @media (max-width: 574px){
     .multimedia{
+        background-color: white;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding-top: 40px;
     }
     
     .containerMultimedia{
@@ -36,6 +38,7 @@
     }
     
     .containerImg{
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
         border-radius: 8px;
         display: flex;
         justify-content: center;
@@ -53,10 +56,12 @@
 
 @media (min-width: 575px){
     .multimedia{
+        background-color: white;
         width: 100%;
         display: flex;
         justify-content: center;
         align-items: center;
+        padding: 20px 0;
     }
     
     .containerMultimedia{
@@ -87,6 +92,7 @@
     }
     
     .containerImg{
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
         border-radius: 15px;
         display: flex;
         justify-content: center;
