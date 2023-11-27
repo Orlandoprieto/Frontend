@@ -39,7 +39,7 @@ useEffect(() => {
         <nav className={style.nav}>
           <ul className={style.list}>
             <li className={style.routes} key={0}>
-              <Link className={style.link} href='/contacto'>
+              <Link className={style.link} href='/contact'>
                 Contacto
               </Link>
             </li>
