@@ -135,6 +135,13 @@
     .creditos a:hover{
         color: #ffff00;
     }
+    .message{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
@@ -219,6 +226,14 @@
     .newsletter form input {
         padding: 0px 20px ;
         font-size: 18px;
+    }
+
+    .message{
+        width: 100%;
+        height: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .footerSeccion{
